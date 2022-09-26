@@ -8,8 +8,8 @@ const Product = ({ product, addToCart }) => {
             <img src={img}></img>
             <div className="product-info">
                 <p>Name: {name}</p>
-                <p>Name: {price}</p>
-                <p>Name: {ratings}</p>
+                <p>Price: {price}</p>
+                <p>Rating: {ratings}</p>
             </div>
             <button onClick={() => addToCart(product)}>
                 <p>Add To Cart</p>
