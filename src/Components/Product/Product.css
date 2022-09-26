@@ -1,0 +1,29 @@
+.product {
+    height: 500px;
+    border: 1px solid orange;
+    position: relative;
+    border-radius: 9px;
+}
+
+.product img {
+    width: 95%;
+    margin: 9px;
+    border-radius: 8px;
+}
+
+.product-info p {
+    margin-bottom: 0;
+}
+
+.product-info {
+    padding-left: 10px;
+}
+
+.product button {
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+}
